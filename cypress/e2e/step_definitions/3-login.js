@@ -11,9 +11,9 @@ import faker from "faker-br";
 And("insira o email para logar", () => {
     login.elements.emailLogin().type('miriam91584@qa.team')
 })
-
+abc123456
 And("insira a senha", () => {
-    login.elements.passwordLogin().type('abc123456')
+    login.elements.passwordLogin().type('')
 })
 
 And("usuário clica em logout", (logout) => {
